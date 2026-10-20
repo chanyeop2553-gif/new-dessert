@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>SlideType</title>
+        <link rel="stylesheet" href="font.css" />
+        <link rel="stylesheet" href="reset.css" />
+        <link rel="stylesheet" href="image .css" />
+    </head>
+    <body>
+        <section id="sildeType">
+            <h2 class="blind">이미지 유형</h2>
+        </section>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="sildeType"><img src="img/슬라이드 유형.jpg" alt="" /></div>
+                <div class="sildeType"><img src="img/slide img 2.png" alt="" /></div>
+                <div class="sildeType"><img src="img/slide img 3.png" alt="" /></div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.js"></script>
+
+        <script>
+            var swiper = new Swiper(".slideType", {
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+            });
+        </script>
+    </body>
+</html>

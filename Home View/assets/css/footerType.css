@@ -1,0 +1,53 @@
+/*common*/
+.container {
+    width: 1160px;
+    margin: 0 aut0;
+}
+
+.section {
+    padding: 120px 0;
+}
+.section > h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.section > p {
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 70px;
+    text-align: center;
+}
+.section > span {
+    display: block;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 16px;
+}
+
+/* footerType */
+#footertype {
+    border-top: 10px;
+}
+.footer_inner {
+    display: flex;
+    justify-content: space-between;
+}
+.footer_inner h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.footer_inner li {
+    margin-bottom: 10px;
+}
+.footer_inner li a {
+    font-size: 18px;
+    color: #666;
+}
+.footer_inner li a :hover {
+    color: black;
+}
+.footer_copyright {
+    text-align: center;
+    padding-top: 30px;
+}
